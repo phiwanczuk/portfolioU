@@ -25,3 +25,19 @@ header#main-header {
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+
+section.about{
+    background: #292929
+}
+
+section{
+    position: relative;
+}
+
+article h3{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
