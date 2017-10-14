@@ -1,6 +1,27 @@
 body {
-    background: black;
     color: white;
     margin: 0 auto;
 
+}
+
+header#main-header {
+    background: url('images/header.jpg') no-repeat;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+
+#main-header h1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#main-header h2{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
