@@ -27,17 +27,18 @@ header#main-header {
 }
 
 
-section.about{
-    background: #292929
+section.about {
+    background: #292929;
+    margin-top: -3%;
 }
 
-section{
-    position: relative;
+h3{
+    color: blue;
+
 }
 
-article h3{
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+p.about{
+    padding: 2%;
+
+
 }
