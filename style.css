@@ -5,12 +5,6 @@ body {
 
 }
 
-header#main-header {
-    background: url('images/header1.jpg') no-repeat;
-    height: 100vh;
-    background-size: cover;
-
-}
 
 
 #main-header h1{
@@ -50,3 +44,35 @@ p.about{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.6;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url("parallaxa/second.jpeg");
+    min-height: 100%;
+}
+.bgimg-2 {
+    background-image: url("parallaxa/pexels-photo-208147.jpeg");
+    min-height: 400px;
+}
+
+.bgimg-3 {
+    background-image: url("images/header.jpg");
+    min-height: 400px;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
