@@ -47,7 +47,7 @@ p.about{
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
     position: relative;
-    opacity: 0.6;
+    opacity: 0.9;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -74,6 +74,13 @@ p.about{
     top: 50%;
     width: 100%;
     text-align: center;
+}
+section#skills{
+    background-color: #cccccc;
+}
+
+section.projects{
+    background-color: #cccccc;
 }
 .project1{
     background-image: url("images/modals/fitrunner.png");
@@ -111,7 +118,7 @@ p.about{
 .gallery-title {
     position: relative;
     background-color: rgba(0, 0, 0, 0.5);
-    top: 105px;
+    top: 220px;
     cursor: pointer;
 }
 
