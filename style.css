@@ -75,4 +75,91 @@ p.about{
     width: 100%;
     text-align: center;
 }
+.project1{
+    background-image: url("images/modals/fitrunnergame.png");
+    height: 300px;
+}
 
+.gallery-items {
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 7vh;
+}
+
+.gallery-item {
+    position: relative;
+    height: 250px;
+    width: auto;
+    min-height: 180px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.gallery-title {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 105px;
+    cursor: pointer;
+}
+
+.gallery-item p {
+    height: 50px;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.gallery-plus {
+    display: none;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.modal-content {
+    background-color: #423c3c;
+    border-radius: 0;
+}
+
+.modal-preview {
+    height: auto;
+    width: 100%;
+}
+
+.project-title {
+    color: #d2cfcf;
+}
+
+.project-description {
+    color: #d2cfcf;
+}
+
+.project-technologies {
+    font-size: 16px;
+    color: #e5e5e5;
+    font-weight: 600;
+}
+
+.project-buttons {
+    text-align: center;
+    padding-top: 2vh;
+}
+
+.live-preview {
+    background-color: rgba(22, 122, 112, 0.9);
+    border: rgba(22, 122, 112, 0.9);
+    margin-right: 3vh;
+}
+
+.live-preview:hover {
+    background-color: rgba(32, 155, 155, 0.9);
+    border: rgba(22, 122, 112, 0.9);
+}
+
+.live-preview:focus {
+    background-color: rgba(22, 122, 112, 0.9);
+    border: rgba(22, 122, 112, 0.9);
+    margin-right: 3vh;
+}
