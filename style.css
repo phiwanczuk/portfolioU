@@ -76,10 +76,20 @@ p.about{
     text-align: center;
 }
 .project1{
-    background-image: url("images/modals/fitrunnergame.png");
+    background-image: url("images/modals/fitrunner.png");
     height: 300px;
 }
+.project2{
+    background-image: url("images/modals/landingpage.png");
+}
 
+.project3{
+    background-image: url("images/modals/fitstyleApp.png");
+}
+
+.project4{
+    background-image: url("images/modals/domosfera.gif");
+}
 .gallery-items {
     padding-right: 0;
     padding-left: 0;
