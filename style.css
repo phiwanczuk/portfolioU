@@ -76,39 +76,39 @@ p.about{
     text-align: center;
 }
 section#skills{
-    background-color: #cccccc;
+    background-color: snow;
 }
 
 section.projects{
-    background-color: #cccccc;
+    background-color: snow;
 
 }
 .bujton{
     margin-top: 5%;
     margin-left: 20%;
 }
-.project1{
+.projectFirst{
     background-image: url("images/modals/fitrunner.png");
     height: 300px;
 }
-.project2{
+.projectSecond{
     background-image: url("images/modals/landingpage.png");
 }
 
-.project3{
+.projectThird{
     background-image: url("images/modals/fitstyleApp.png");
 }
 
-.project4{
+.projectFourth{
     background-image: url("images/modals/domosfera.gif");
 }
-.gallery-items {
+.galleryElements {
     padding-right: 0;
     padding-left: 0;
     padding-top: 7vh;
 }
 
-.gallery-item {
+.galleryElement {
     position: relative;
     height: 250px;
     width: auto;
@@ -120,14 +120,14 @@ section.projects{
     background-position: center;
     text-align: center;
 }
-.gallery-title {
+.galleryName {
     position: relative;
     background-color: rgba(0, 0, 0, 0.5);
     top: 220px;
     cursor: pointer;
 }
 
-.gallery-item p {
+.galleryElement p {
     height: 50px;
     color: #fff;
     padding-top: 15px;
@@ -141,7 +141,7 @@ section.projects{
 }
 
 .modal-content {
-    background-color: #423c3c;
+    background-color: #2D303B;
     border-radius: 0;
 }
 
@@ -150,38 +150,13 @@ section.projects{
     width: 100%;
 }
 
-.project-title {
+.projectName {
     color: #d2cfcf;
 }
 
-.project-description {
-    color: #d2cfcf;
-}
 
-.project-technologies {
-    font-size: 16px;
-    color: #e5e5e5;
-    font-weight: 600;
-}
-
-.project-buttons {
+.projectButtons {
     text-align: center;
     padding-top: 2vh;
 }
 
-.live-preview {
-    background-color: rgba(22, 122, 112, 0.9);
-    border: rgba(22, 122, 112, 0.9);
-    margin-right: 3vh;
-}
-
-.live-preview:hover {
-    background-color: rgba(32, 155, 155, 0.9);
-    border: rgba(22, 122, 112, 0.9);
-}
-
-.live-preview:focus {
-    background-color: rgba(22, 122, 112, 0.9);
-    border: rgba(22, 122, 112, 0.9);
-    margin-right: 3vh;
-}
