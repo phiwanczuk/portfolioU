@@ -160,3 +160,14 @@ section.projects{
     padding-top: 2vh;
 }
 
+.projectsButton{
+    margin-left: 31.5%;
+    padding: 12px;
+    margin-bottom: 2%;
+    transition:  all 500ms linear;
+
+}
+.projectsButton:hover{
+    background: black;
+    color: #fff;
+}
