@@ -4,21 +4,15 @@ body {
     margin: 0 auto;
 
 }
+h1.nameOccup {
+    position:absolute;
+    left: 31.5%;
+    top:30% !important;
+    color: #1b6d85;
+    padding: 5%;
+    background-color: rgba(0,0,0,.6);
 
 
-
-#main-header h1{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-#main-header h2{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%,-50%);
 }
 
 
@@ -38,12 +32,6 @@ p.about{
 
 }
 
-.work{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
     position: relative;
@@ -56,14 +44,9 @@ p.about{
 
 .bgimg-1 {
     background-image: url("images/header1.jpg");
-    min-height: 500px;
+    min-height: 700px;
 }
 .bgimg-2 {
-    background-image: url("images/header1.jpg");
-    min-height: 400px;
-}
-
-.bgimg-3 {
     background-image: url("images/header1.jpg");
     min-height: 400px;
 }
@@ -71,7 +54,7 @@ p.about{
 .caption {
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 30%;
     width: 100%;
     text-align: center;
 }
@@ -122,16 +105,27 @@ section.projects{
 }
 .galleryName {
     position: relative;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: black;
     top: 220px;
     cursor: pointer;
+    transition: all 200ms linear;
 }
+
+.galleryName:hover{
+    background-color: rgba(0,0,0,.4);
+
+}
+
 
 .galleryElement p {
     height: 50px;
     color: #fff;
     padding-top: 15px;
     padding-bottom: 10px;
+    transition: all 150ms linear;
+}
+.galleryElement p:hover{
+    font-weight: 500;
 }
 
 .gallery-plus {
