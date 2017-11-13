@@ -214,3 +214,18 @@ h2.projects{
     color:#1b6d85;
     font-weight:700;
 }
+
+h2.about{
+    color:#1b6d85;
+    font-weight:700;
+    margin-top: 5%;
+}
+
+section.about{
+    background-color: snow;
+}
+
+section.about p{
+    color: black;
+    font-weight: 600;
+}
