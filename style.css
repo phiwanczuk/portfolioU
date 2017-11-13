@@ -165,3 +165,34 @@ section.projects{
     background: black;
     color: #fff;
 }
+.skills-section p{
+    color: black;
+    font-weight:700;
+    margin-left: 7%;
+}
+p.html{
+    margin-left: 8%;
+}
+
+p.css{
+    margin-left: 9%;
+}
+
+p.js{
+    margin-left: 2%;
+}
+p.jq{
+    margin-left: 5%;
+}
+p.rwd{
+    margin-left: 8%;
+}
+p.boot{
+    margin-left: 2.5%;
+}
+p.stack{
+    margin-left: 5%;
+}
+p.react{
+    margin-left: 7.5%;
+}
