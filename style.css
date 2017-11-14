@@ -229,3 +229,11 @@ section.about p{
     color: black;
     font-weight: 600;
 }
+
+.first-row-skills img {
+    margin: 0 auto;
+}
+
+.first-row-skills p{
+    text-align: center;
+}
