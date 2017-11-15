@@ -168,30 +168,43 @@ section.projects{
     margin-left: 7%;
 }
 p.html{
-    margin-left: 8%;
+    text-align: center;
+    margin-right: 5%;
 }
 
 p.css{
-    margin-left: 9%;
+    text-align: center;
+    margin-right: 6.5%;
+
 }
 
 p.js{
-    margin-left: 2%;
+    text-align: center;
+    margin-right: 6%;
 }
 p.jq{
-    margin-left: 5%;
+    text-align: center;
+    margin-right: 6%;
 }
 p.rwd{
-    margin-left: 8%;
+    text-align: center;
+    margin-right: 6%;
 }
 p.boot{
-    margin-left: 2.5%;
+    text-align: center;
+    margin-right: 6%;
 }
 p.stack{
-    margin-left: 5%;
+    text-align: center;
+    margin-right: 8%;
 }
 p.react{
-    margin-left: 7.5%;
+    text-align: center;
+    margin-right: 6%;
+}
+p.git{
+    text-align: center;
+    margin-right: 6%;
 }
 .first-row-skills{
     margin-top: 3%;
@@ -202,6 +215,7 @@ p.react{
 
 .third-row-skills{
     margin-bottom: 2%;
+    margin-top: 3%;
 }
 h2.skills{
     color:#1b6d85;
@@ -230,12 +244,30 @@ section.about p{
 
 .first-row-skills img {
     margin: 0 auto;
+    margin-bottom: 2%;
+    margin-top: 1%;
 }
 
 .second-row-skills img{
     margin: 0 auto;
+    margin-bottom: 2%;
+    margin-top: 1%;
 }
 
 .third-row-skills img{
     margin: 0 auto;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+.first-row-skills div{
+    border: 2px solid black;
+    border-radius: 5px 5px 5px 5px;
+}
+.second-row-skills div{
+    border: 2px solid black;
+    border-radius: 5px 5px 5px 5px;
+}
+.third-row-skills div{
+    border: 2px solid black;
+    border-radius: 5px 5px 5px 5px;
 }
