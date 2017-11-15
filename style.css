@@ -198,9 +198,7 @@ p.react{
     margin-bottom: 2%;
 }
 
-.second-row-skills{
-    margin-bottom: 2%;
-}
+
 
 .third-row-skills{
     margin-bottom: 2%;
@@ -234,6 +232,10 @@ section.about p{
     margin: 0 auto;
 }
 
-.first-row-skills p{
-    text-align: center;
+.second-row-skills img{
+    margin: 0 auto;
+}
+
+.third-row-skills img{
+    margin: 0 auto;
 }
